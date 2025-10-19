@@ -1,6 +1,5 @@
 <?php
 session_start();
-phpinfo();
 include 'db.php'; // Conexão com o banco
 
 // Redireciona apenas admins, só se 'tipo' estiver definido
